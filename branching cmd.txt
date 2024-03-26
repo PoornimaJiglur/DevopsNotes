@@ -1,0 +1,128 @@
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git config user.email "jiglurpoornima@gmail.com"
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git add .
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git commit -m
+error: switch `m' requires a value
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git commit -m "files added"
+[master (root-commit) 5616ab1] files added
+ 3 files changed, 9 insertions(+)
+ create mode 100644 demo.java
+ create mode 100644 index.html
+ create mode 100644 readme.txt
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git remote add https://github.com/PoornimaJiglur/git_branching.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git demo.java
+git: 'demo.java' is not a git command. See 'git --help'.
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git push demo.java
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream demo.java master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git remote add origin https://github.com/PoornimaJiglur/git_branching.git
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 422 bytes | 70.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/PoornimaJiglur/git_branching.git
+ * [new branch]      master -> master
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git branch git_branching
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (master)
+$ git checkout git_branching
+Switched to branch 'git_branching'
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (git_branching)
+$ git branch featured
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (git_branching)
+$ git branch
+  featured
+* git_branching
+  master
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (git_branching)
+$ git push origin git_branching
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'git_branching' on GitHub by visiting:
+remote:      https://github.com/PoornimaJiglur/git_branching/pull/new/git_branching
+remote:
+To https://github.com/PoornimaJiglur/git_branching.git
+ * [new branch]      git_branching -> git_branching
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (git_branching)
+$ git add demo.java
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (git_branching)
+$ git commit -m "modified file"
+[git_branching 3c5233c] modified file
+ 1 file changed, 1 insertion(+)
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (git_branching)
+$ git push origin git_branching
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 401 bytes | 133.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/PoornimaJiglur/git_branching.git
+   5616ab1..3c5233c  git_branching -> git_branching
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/march19 (git_branching)
+$

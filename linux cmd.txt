@@ -1,0 +1,263 @@
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ mkdir linux
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ ls
+ Basic_GIT_commands.pdf
+ GITHUb_workflow.png
+'Screenshot 2024-03-19 162530.png'
+'Screenshot 2024-03-19 165959.png'
+'advance devops.png'
+ basic.png
+ basic_GIT_Poornima/
+'basic_commonds for GIT.png'
+'basic_commonds for linux.png'
+ branches.png
+'branching cmd.txt'
+ branching.png
+ clone.png
+ cloning/
+ commnd.txt
+'devops adv + basic syllabus.png'
+'devops basic tools.png'
+'features of linux.png'
+ linux/
+ march19/
+'merging the branch.png'
+ my_project_1/
+'task 1.png'
+'working flow of github in command prompt.png'
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ mkdir folder1 folder2
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ cd linux
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/linux
+$ cd..
+bash: cd..: command not found
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/linux
+$ touch sample.txt
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/linux
+$ ls
+sample.txt
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/linux
+$ pwd
+/d/DevOps/linux
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/linux
+$ rm sample.txt
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/linux
+$ ls
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps/linux
+$ cd ..
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ ls
+ Basic_GIT_commands.pdf
+ GITHUb_workflow.png
+'Screenshot 2024-03-19 162530.png'
+'Screenshot 2024-03-19 165959.png'
+'advance devops.png'
+ basic.png
+ basic_GIT_Poornima/
+'basic_commonds for GIT.png'
+'basic_commonds for linux.png'
+ branches.png
+'branching cmd.txt'
+ branching.png
+ clone.png
+ cloning/
+ commnd.txt
+'devops adv + basic syllabus.png'
+'devops basic tools.png'
+'features of linux.png'
+ folder1/
+ folder2/
+ linux/
+ march19/
+'merging the branch.png'
+ my_project_1/
+'task 1.png'
+'working flow of github in command prompt.png'
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ rmdir linux
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ ls
+ Basic_GIT_commands.pdf
+ GITHUb_workflow.png
+'Screenshot 2024-03-19 162530.png'
+'Screenshot 2024-03-19 165959.png'
+'advance devops.png'
+ basic.png
+ basic_GIT_Poornima/
+'basic_commonds for GIT.png'
+'basic_commonds for linux.png'
+ branches.png
+'branching cmd.txt'
+ branching.png
+ clone.png
+ cloning/
+ commnd.txt
+'devops adv + basic syllabus.png'
+'devops basic tools.png'
+'features of linux.png'
+ folder1/
+ folder2/
+ march19/
+'merging the branch.png'
+ my_project_1/
+'task 1.png'
+'working flow of github in command prompt.png'
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ rmdir folder1
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ rmdir folder2
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$ history
+    1  git init
+    2  git config user.name "poornima"
+    3  git config user.email "jiglurpoornima@gmail.com"
+    4  ls
+    5  ls
+    6  touch Demo.java
+    7  ls
+    8  touch test.java
+    9  ls
+   10  touch login.java
+   11  ls
+   12  git add login.java
+   13  git status
+   14  git commit -m "Added login java file"
+   15  git status
+   16  git add demo.java
+   17  git status
+   18  git add Demo.java
+   19  git status
+   20  git commit -m "demo file added successfully"
+   21  touch sample.java
+   22  git add test.java sample.java
+   23  ls
+   24  git status
+   25  git commit -m "additional files added"
+   26  git clone https://github.com/SreekanthJaladanki/AWS_InterviewQuestions.git
+   27  git clone https://github.com/SreekanthJaladanki/basic_git_practice.git
+   28  ls
+   29  git status
+   30  git log
+   31  git remote add origin https://github.com/PoornimaJiglur/Poo_mar18_git.git
+   32  git push origin master
+   33  touch sample.txt
+   34  add sample.tx
+   35  add sample.txt
+   36  git add sample.txt
+   37  status
+   38  git status
+   39  git commit -m
+   40  git commit -m sample.txt
+   41  git commit -m "files added"
+   42  git remote add test
+   43  git remote add https://github.com/PoornimaJiglur/Poo_mar18_git.git
+   44  git push origin master
+   45  git init
+   46  touch demo.java readme.txt index.html
+   47  ls
+   48  git config user.email "jiglurpoornima@gmail.com
+   49  git config user.email "jiglurpoornima@gmail.com"
+   50  git config user.email "jiglurpoornima@gmail.com"
+   51  git add.
+   52  git add .
+   53  git commit -m
+   54  git commit -m "files added"
+   55  git remote add https://github.com/PoornimaJiglur/git_branching.git
+   56  git push
+   57  git demo.java
+   58  git push demo.java
+   59  git remote add origin https://github.com/PoornimaJiglur/git_branching.git
+   60  git push origin master
+   61  git branch git_branching
+   62  git checkout git_branching
+   63  git branch featured
+   64  git branch
+   65  git push origin git_branching
+   66  git add demo.java
+   67  git commit -m "modified file"
+   68  git push origin git_branching
+   69  git checkout master
+   70  git merge git_branching
+   71  git push origin master
+   72  git clone
+   73  git clone PoornimaJiglur
+   74  git clone https://github.com/SreekanthJaladanki/Basics_GIT.git
+   75  git init
+   76  git config user.email "jiglurpoornima@gmail.com"
+   77  git add.
+   78  git add .
+   79  git commit -m "all java programs"
+   80  git remote add origin https://github.com/PoornimaJiglur/all_java_prog.git
+   81  git push origin master
+   82  git clone https://github.com/SreekanthJaladanki/Basics_GIT.git
+   83  git init
+   84  git config user.name "Poornima"
+   85  git config user.email "jiglurpoornima@gmail.com"
+   86  git add first.txt
+   87  git add .
+   88  git commit -m "files updated"
+   89  git push add origin master
+   90  git remote add origin https://github.com/SreekanthJaladanki/Basics_GIT.git
+   91  git push origin master
+   92  git pull
+   93  git push add origin master
+   94  git pull origin/amruta
+   95  git init
+   96  git config user.email "jiglurpoornima@gmail.com"
+   97  git config user.name "PoornimaJiglur"
+   98  git add .
+   99  git commit -m "modified files added to collabration by Poornima"
+  100  git remote add origin https://github.com/SreekanthJaladanki/Basics_GIT.git~
+  101  git remote add test https://github.com/SreekanthJaladanki/Basics_GIT.git
+  102  git push test master
+  103  git push test Basics_GIT
+  104  git check Basics_GIT
+  105  git checkout Basics_GIT
+  106  git push test master
+  107  git status
+  108  git push origin master
+  109  git checkout Basic_Trainer_git
+  110  git init
+  111  git config user.name "poornima"
+  112  git config user.email "jiglurpoornima@gmail.com"
+  113  git add .
+  114  git commit -m "files committed"
+  115  git checkout Basic_Trainer_git
+  116  mkdir linux
+  117  ls
+  118  mkdir folder1 folder2
+  119  cd linux
+  120  cd..
+  121  touch sample.txt
+  122  ls
+  123  pwd
+  124  rm sample.txt
+  125  ls
+  126  cd ..
+  127  ls
+  128  rmdir linux
+  129  ls
+  130  rmdir folder1
+  131  rmdir folder2
+  132  history
+
+poornima.jiglur@HVTNDAL0853 MINGW64 /d/DevOps
+$
